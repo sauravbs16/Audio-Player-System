@@ -1,0 +1,756 @@
+# do LogicalStep_top_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying c:/software/Altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:/software/Altera/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlib QD1
+# vmap QD1 QD1
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet QD1 QD1 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/QD1.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/QD1.v 
+# -- Compiling module QD1
+# 
+# Top level modules:
+# 	QD1
+# End time: 17:30:42 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_controller.v 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 17:30:42 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_synchronizer.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_synchronizer.v 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 17:30:42 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0.v 
+# -- Compiling module QD1_mm_interconnect_0
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0
+# End time: 17:30:42 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008.v 
+# -- Compiling module QD1_mm_interconnect_0_avalon_st_adapter_008
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_avalon_st_adapter_008
+# End time: 17:30:42 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter.v 
+# -- Compiling module QD1_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_avalon_st_adapter
+# End time: 17:30:42 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_uart.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_uart.v 
+# -- Compiling module QD1_uart_tx
+# -- Compiling module QD1_uart_rx_stimulus_source
+# -- Compiling module QD1_uart_rx
+# -- Compiling module QD1_uart_regs
+# -- Compiling module QD1_uart
+# 
+# Top level modules:
+# 	QD1_uart
+# End time: 17:30:42 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_system_timer.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_system_timer.v 
+# -- Compiling module QD1_system_timer
+# 
+# Top level modules:
+# 	QD1_system_timer
+# End time: 17:30:42 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sysid_qsys_0.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:42 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sysid_qsys_0.v 
+# -- Compiling module QD1_sysid_qsys_0
+# 
+# Top level modules:
+# 	QD1_sysid_qsys_0
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_switch_pio.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_switch_pio.v 
+# -- Compiling module QD1_switch_pio
+# 
+# Top level modules:
+# 	QD1_switch_pio
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_stimulus_in.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_stimulus_in.v 
+# -- Compiling module QD1_stimulus_in
+# 
+# Top level modules:
+# 	QD1_stimulus_in
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sdram_0.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sdram_0.v 
+# -- Compiling module QD1_sdram_0_input_efifo_module
+# -- Compiling module QD1_sdram_0
+# 
+# Top level modules:
+# 	QD1_sdram_0
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_response_out.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_response_out.v 
+# -- Compiling module QD1_response_out
+# 
+# Top level modules:
+# 	QD1_response_out
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_nios2_gen2_0.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_nios2_gen2_0.v 
+# -- Compiling module QD1_nios2_gen2_0
+# 
+# Top level modules:
+# 	QD1_nios2_gen2_0
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_led_pio.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_led_pio.v 
+# -- Compiling module QD1_led_pio
+# 
+# Top level modules:
+# 	QD1_led_pio
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_lcd_display.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_lcd_display.v 
+# -- Compiling module QD1_lcd_display
+# 
+# Top level modules:
+# 	QD1_lcd_display
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_jtag_uart_0.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_jtag_uart_0.v 
+# -- Compiling module QD1_jtag_uart_0_sim_scfifo_w
+# -- Compiling module QD1_jtag_uart_0_scfifo_w
+# -- Compiling module QD1_jtag_uart_0_sim_scfifo_r
+# -- Compiling module QD1_jtag_uart_0_scfifo_r
+# -- Compiling module QD1_jtag_uart_0
+# 
+# Top level modules:
+# 	QD1_jtag_uart_0
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_button_pio.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_button_pio.v 
+# -- Compiling module QD1_button_pio
+# 
+# Top level modules:
+# 	QD1_button_pio
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_serial_bus_controller.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_serial_bus_controller.v 
+# -- Compiling module altera_up_av_config_serial_bus_controller
+# 
+# Top level modules:
+# 	altera_up_av_config_serial_bus_controller
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_slow_clock_generator.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_slow_clock_generator.v 
+# -- Compiling module altera_up_slow_clock_generator
+# 
+# Top level modules:
+# 	altera_up_slow_clock_generator
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init.v 
+# -- Compiling module altera_up_av_config_auto_init
+# 
+# Top level modules:
+# 	altera_up_av_config_auto_init
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v 
+# -- Compiling module altera_up_av_config_auto_init_ob_de1_soc
+# 
+# Top level modules:
+# 	altera_up_av_config_auto_init_ob_de1_soc
+# End time: 17:30:43 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:43 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v 
+# -- Compiling module altera_up_av_config_auto_init_ob_audio
+# 
+# Top level modules:
+# 	altera_up_av_config_auto_init_ob_audio
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v 
+# -- Compiling module altera_up_av_config_auto_init_ob_adv7180
+# 
+# Top level modules:
+# 	altera_up_av_config_auto_init_ob_adv7180
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_audio_i2c_config.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_audio_i2c_config.v 
+# -- Compiling module QD1_audio_i2c_config
+# 
+# Top level modules:
+# 	QD1_audio_i2c_config
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_altpll_0.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_altpll_0.v 
+# -- Compiling module QD1_altpll_0_dffpipe_l2c
+# -- Compiling module QD1_altpll_0_stdsync_sv6
+# -- Compiling module QD1_altpll_0_altpll_5ag2
+# -- Compiling module QD1_altpll_0
+# 
+# Top level modules:
+# 	QD1_altpll_0
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_bit_counter.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_bit_counter.v 
+# -- Compiling module altera_up_audio_bit_counter
+# 
+# Top level modules:
+# 	altera_up_audio_bit_counter
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_in_deserializer.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_in_deserializer.v 
+# -- Compiling module altera_up_audio_in_deserializer
+# 
+# Top level modules:
+# 	altera_up_audio_in_deserializer
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_out_serializer.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_out_serializer.v 
+# -- Compiling module altera_up_audio_out_serializer
+# 
+# Top level modules:
+# 	altera_up_audio_out_serializer
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_clock_edge.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_clock_edge.v 
+# -- Compiling module altera_up_clock_edge
+# 
+# Top level modules:
+# 	altera_up_clock_edge
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_sync_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_sync_fifo.v 
+# -- Compiling module altera_up_sync_fifo
+# 
+# Top level modules:
+# 	altera_up_sync_fifo
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_Audio.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_Audio.v 
+# -- Compiling module QD1_Audio
+# 
+# Top level modules:
+# 	QD1_Audio
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep {C:/Users/d3goel/Documents/ECE-224/LogicalStep/LogicalStep_top.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep" C:/Users/d3goel/Documents/ECE-224/LogicalStep/LogicalStep_top.v 
+# -- Compiling module LogicalStep_top
+# 
+# Top level modules:
+# 	LogicalStep_top
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_irq_mapper.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_irq_mapper.sv 
+# -- Compiling module QD1_irq_mapper
+# 
+# Top level modules:
+# 	QD1_irq_mapper
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0.sv 
+# -- Compiling module QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0
+# End time: 17:30:44 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:44 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
+# -- Compiling module QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_width_adapter.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_width_adapter.sv 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_uncompressor.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_uncompressor.sv 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_arbitrator.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_arbitrator.sv 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux_001.sv 
+# -- Compiling module QD1_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_rsp_mux_001
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux.sv 
+# -- Compiling module QD1_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_rsp_mux
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux_007.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux_007.sv 
+# -- Compiling module QD1_mm_interconnect_0_rsp_demux_007
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_rsp_demux_007
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux.sv 
+# -- Compiling module QD1_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_rsp_demux
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux_007.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux_007.sv 
+# -- Compiling module QD1_mm_interconnect_0_cmd_mux_007
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_cmd_mux_007
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux.sv 
+# -- Compiling module QD1_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_cmd_mux
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux_001.sv 
+# -- Compiling module QD1_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_cmd_demux_001
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux.sv 
+# -- Compiling module QD1_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_cmd_demux
+# End time: 17:30:45 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:45 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter.sv 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv 
+# -- Compiling module altera_merlin_burst_adapter_uncompressed_only
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_uncompressed_only
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv 
+# -- Compiling module altera_merlin_traffic_limiter
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(531): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(602): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(603): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(604): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(605): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(607): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(612): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(644): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(646): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(647): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(648): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(649): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(650): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(655): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(657): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(660): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv(661): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# 
+# Top level modules:
+# 	altera_merlin_traffic_limiter
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 21
+# vlog -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_avalon_sc_fifo.v}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -vlog01compat -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_avalon_sc_fifo.v 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_010.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_010.sv 
+# -- Compiling module QD1_mm_interconnect_0_router_010_default_decode
+# -- Compiling module QD1_mm_interconnect_0_router_010
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_router_010
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_009.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_009.sv 
+# -- Compiling module QD1_mm_interconnect_0_router_009_default_decode
+# -- Compiling module QD1_mm_interconnect_0_router_009
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_router_009
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_002.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_002.sv 
+# -- Compiling module QD1_mm_interconnect_0_router_002_default_decode
+# -- Compiling module QD1_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_router_002
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_001.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_001.sv 
+# -- Compiling module QD1_mm_interconnect_0_router_001_default_decode
+# -- Compiling module QD1_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_router_001
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router.sv 
+# -- Compiling module QD1_mm_interconnect_0_router_default_decode
+# -- Compiling module QD1_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	QD1_mm_interconnect_0_router
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# 
+# (randomization, coverage or assertion) detected in the design.
+# 
+# These features are only supported in Questasim.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# ** Warning: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# 
+# (randomization, coverage or assertion) detected in the design.
+# 
+# These features are only supported in Questasim.
+# 
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_agent.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_agent.sv 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 17:30:46 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_translator.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:46 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_translator.sv 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 17:30:47 on Oct 15,2018, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_translator.sv}
+# Model Technology ModelSim ALTERA vlog 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:47 on Oct 15,2018
+# vlog -reportprogress 300 -sv -work QD1 "+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules" C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_translator.sv 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 17:30:47 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work QD1 {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_if.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:47 on Oct 15,2018
+# vcom -reportprogress 300 -93 -work QD1 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_if.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity spi_master_if
+# -- Compiling architecture syn of spi_master_if
+# End time: 17:30:47 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work QD1 {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_core.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:47 on Oct 15,2018
+# vcom -reportprogress 300 -93 -work QD1 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_core.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity spi_master_core
+# -- Compiling architecture syn of spi_master_core
+# End time: 17:30:47 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work QD1 {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 17:30:47 on Oct 15,2018
+# vcom -reportprogress 300 -93 -work QD1 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity dual7segment
+# -- Compiling architecture syn of dual7segment
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(99): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(100): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(101): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(102): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(103): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(104): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(105): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(106): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(107): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(108): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(109): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(110): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(111): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(112): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(113): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(114): Prefix of indexed name cannot be a type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd(155): VHDL Compiler exiting
+# End time: 17:30:47 on Oct 15,2018, Elapsed time: 0:00:00
+# Errors: 17, Warnings: 0
+# ** Error: c:/software/Altera/15.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./LogicalStep_top_run_msim_rtl_vhdl.do line 72
+# c:/software/Altera/15.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work QD1 {C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd}"

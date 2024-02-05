@@ -1,0 +1,18 @@
+Fitter Status : Successful - Tue Nov 20 23:02:16 2018
+Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Standard Edition
+Revision Name : LogicalStep_top
+Top-level Entity Name : LogicalStep_top
+Family : MAX 10
+Device : 10M08SAE144C8G
+Timing Models : Final
+Total logic elements : 6,236 / 8,064 ( 77 % )
+    Total combinational functions : 5,498 / 8,064 ( 68 % )
+    Dedicated logic registers : 3,913 / 8,064 ( 49 % )
+Total registers : 3981
+Total pins : 96 / 101 ( 95 % )
+Total virtual pins : 0
+Total memory bits : 73,088 / 387,072 ( 19 % )
+Embedded Multiplier 9-bit elements : 6 / 48 ( 13 % )
+Total PLLs : 1 / 1 ( 100 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 1 ( 0 % )

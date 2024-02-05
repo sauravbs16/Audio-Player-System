@@ -1,0 +1,1879 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/d3goel/Documents/ECE-224/LogicalStep/simulation/modelsim
+valtera_avalon_sc_fifo
+Z1 !s110 1539639046
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+IAnCS>Zd0F]:19Q6NZk2Mj0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1539638251
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_avalon_sc_fifo.v
+Z4 L0 21
+Z5 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z6 !s108 1539639046.000000
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_avalon_sc_fifo.v|
+!i113 1
+Z7 o-vlog01compat -work QD1
+Z8 !s92 -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules
+valtera_merlin_arb_adder
+Z9 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z10 !s110 1539639045
+!i10b 1
+!s100 1Jn[a;@5nZmTN?DFKQNzj2
+Iib=Fc`EbG0Gn4o6IIi:_;1
+R2
+Z11 !s105 altera_merlin_arbitrator_sv_unit
+S1
+R0
+R3
+Z12 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_arbitrator.sv
+Z13 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_arbitrator.sv
+L0 228
+R5
+r1
+!s85 0
+31
+Z14 !s108 1539639045.000000
+Z15 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_arbitrator.sv|
+!i113 1
+Z17 o-sv -work QD1
+Z18 !s92 -sv -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules
+valtera_merlin_arbitrator
+R9
+R10
+!i10b 1
+!s100 NQTehjm2fNQROUMUzShGa1
+IOKJJMEf6nVkBR1C:S<<bj2
+R2
+R11
+S1
+R0
+R3
+R12
+R13
+L0 103
+R5
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R17
+R18
+valtera_merlin_burst_adapter
+R9
+R10
+!i10b 1
+!s100 OCc70X^k:B?GW6i71n`L_3
+IBlJc8l>96TO62471j<0Q21
+R2
+!s105 altera_merlin_burst_adapter_sv_unit
+S1
+R0
+R3
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter.sv
+R4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter.sv|
+!i113 1
+R17
+R18
+valtera_merlin_burst_adapter_uncompressed_only
+R9
+R1
+!i10b 1
+!s100 STH]BdUM[JDMJZNJGXCd>0
+IcPSHd_^N:K06X=QKG`Gl23
+R2
+!s105 altera_merlin_burst_adapter_uncmpr_sv_unit
+S1
+R0
+R3
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+L0 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv|
+!i113 1
+R17
+R18
+valtera_merlin_burst_uncompressor
+R9
+R10
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IElPCoH4>ibb_ADEYH@PS13
+R2
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+R0
+R3
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!i113 1
+R17
+R18
+valtera_merlin_master_agent
+R9
+R1
+!i10b 1
+!s100 dS6@BGJLYTJ71Y^2oj:8i3
+Ii;^6@`6TlPh`[n8:bk`[61
+R2
+!s105 altera_merlin_master_agent_sv_unit
+S1
+R0
+R3
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_agent.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_agent.sv
+Z19 L0 28
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_agent.sv|
+!i113 1
+R17
+R18
+valtera_merlin_master_translator
+R9
+Z20 !s110 1539639047
+!i10b 1
+!s100 NdRk@]3fC2C@V7Rm;dQM31
+I1Y835=8Si`72PlQ=Of@C;2
+R2
+!s105 altera_merlin_master_translator_sv_unit
+S1
+R0
+R3
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_translator.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_translator.sv
+L0 32
+R5
+r1
+!s85 0
+31
+Z21 !s108 1539639047.000000
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_master_translator.sv|
+!i113 1
+R17
+R18
+valtera_merlin_slave_agent
+R9
+R1
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+Io::O`>k90BC?c=[N9F;=e2
+R2
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R0
+R3
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv
+Z22 L0 34
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_agent.sv|
+!i113 1
+R17
+R18
+valtera_merlin_slave_translator
+R9
+R20
+!i10b 1
+!s100 k`9[YAn_dLTkg;GE`mOb61
+I3TQ7fg6cI;>cePhjU5oA23
+R2
+!s105 altera_merlin_slave_translator_sv_unit
+S1
+R0
+Z23 w1539638252
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_translator.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_translator.sv
+Z24 L0 35
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_slave_translator.sv|
+!i113 1
+R17
+R18
+valtera_merlin_traffic_limiter
+R9
+R1
+!i10b 1
+!s100 0h4;DR_^c13j]SXILa7d?1
+IA?G3MBVOU]3HA[Q[Ek0je1
+R2
+!s105 altera_merlin_traffic_limiter_sv_unit
+S1
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv
+L0 49
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_traffic_limiter.sv|
+!i113 1
+R17
+R18
+valtera_merlin_width_adapter
+R9
+R10
+!i10b 1
+!s100 QzdA5DP6CReOTH<9QzODa3
+IO^9n0@6BhW2G17W[CRDhl2
+R2
+!s105 altera_merlin_width_adapter_sv_unit
+S1
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_width_adapter.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_width_adapter.sv
+L0 25
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_width_adapter.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_merlin_width_adapter.sv|
+!i113 1
+R17
+R18
+valtera_reset_controller
+Z25 !s110 1539639042
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+IY;lg`PboTSnQYKgcB0H?91
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_controller.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_controller.v
+L0 42
+R5
+r1
+!s85 0
+31
+Z26 !s108 1539639042.000000
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_controller.v|
+!i113 1
+R7
+R8
+valtera_reset_synchronizer
+R25
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+IAU^?JTD93HaiRAZ4zQTLC0
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_synchronizer.v
+L0 24
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_reset_synchronizer.v|
+!i113 1
+R7
+R8
+valtera_up_audio_bit_counter
+Z27 !s110 1539639044
+!i10b 1
+!s100 1=4Q:C2fbOU4M^9`ZPU[^0
+I0O9oe6TSmCN=`PL79=gEo1
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_bit_counter.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_bit_counter.v
+Z28 L0 30
+R5
+r1
+!s85 0
+31
+Z29 !s108 1539639044.000000
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_bit_counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_bit_counter.v|
+!i113 1
+R7
+R8
+valtera_up_audio_in_deserializer
+R27
+!i10b 1
+!s100 MVY@G`2<oDaNjKh_G3ei_2
+I9]lZzm:OQYKgI]<:WU11H1
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_in_deserializer.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_in_deserializer.v
+R19
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_in_deserializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_in_deserializer.v|
+!i113 1
+R7
+R8
+valtera_up_audio_out_serializer
+R27
+!i10b 1
+!s100 9P9]?9i5N^kEKeZ6^D36:2
+I4VEVKZYA8mYIi2RB]^mhY3
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_out_serializer.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_out_serializer.v
+R19
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_out_serializer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_audio_out_serializer.v|
+!i113 1
+R7
+R8
+valtera_up_av_config_auto_init
+Z30 !s110 1539639043
+!i10b 1
+!s100 llVi9JhWEDV8H5NR35H^R2
+IdoDf1L54?XOfemM?Dg1`C3
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init.v
+Z31 L0 29
+R5
+r1
+!s85 0
+31
+Z32 !s108 1539639043.000000
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init.v|
+!i113 1
+R7
+R8
+valtera_up_av_config_auto_init_ob_adv7180
+R27
+!i10b 1
+!s100 9B@1knAJ3l;2AE@4FH^z42
+IgXE@RJEXF@:LU>H;MGS4=1
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v
+R19
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_adv7180.v|
+!i113 1
+R7
+R8
+valtera_up_av_config_auto_init_ob_audio
+R27
+!i10b 1
+!s100 >EzfYjamhP3m1[SLlcc@G0
+IW9LcOHW3fW5HnQ6TI`1G73
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v
+R19
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_audio.v|
+!i113 1
+R7
+R8
+valtera_up_av_config_auto_init_ob_de1_soc
+R30
+!i10b 1
+!s100 W@JdEdAQcW1Y:eLclH=h63
+I7K0W9z@Una;O`TQY7DakS2
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v
+R31
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_auto_init_ob_de1_soc.v|
+!i113 1
+R7
+R8
+valtera_up_av_config_serial_bus_controller
+R30
+!i10b 1
+!s100 XDSjk8^6l9VTIENMO[PEF1
+IA`Czff8BdA[l4l<ETWj]<0
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_serial_bus_controller.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_serial_bus_controller.v
+R31
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_serial_bus_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_av_config_serial_bus_controller.v|
+!i113 1
+R7
+R8
+valtera_up_clock_edge
+R27
+!i10b 1
+!s100 zII@RWf7A<O[<cSlf0lGC1
+IXVaDkPWa[`5?2SP3iHzI_3
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_clock_edge.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_clock_edge.v
+R31
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_clock_edge.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_clock_edge.v|
+!i113 1
+R7
+R8
+valtera_up_slow_clock_generator
+R30
+!i10b 1
+!s100 YXh=3j7I_EN:]o_[QD[]70
+IRGLGZ?ZGLok1Y;>^TJo8z2
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_slow_clock_generator.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_slow_clock_generator.v
+R22
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_slow_clock_generator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_slow_clock_generator.v|
+!i113 1
+R7
+R8
+valtera_up_sync_fifo
+R27
+!i10b 1
+!s100 d7WZV`gzKOF0bG`8>8mG32
+IERk_e563;0VKVgh7hK=GA3
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_sync_fifo.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_sync_fifo.v
+R19
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_sync_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/altera_up_sync_fifo.v|
+!i113 1
+R7
+R8
+Edual7segment
+R23
+Z33 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z34 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z35 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd
+l0
+L52
+VP`3iK2PBZcYDhVWKn6iN_1
+!s100 7HW;lGVYg>]CWbd_9;QOL1
+Z36 OV;C;10.4b;61
+31
+R20
+!i10b 1
+R21
+!s90 -reportprogress|300|-93|-work|QD1|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd|
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/dual7segment_core.vhd|
+!i113 1
+Z37 o-93 -work QD1
+Z38 tExplicit 1
+vQD1
+R25
+!i10b 1
+!s100 7h[aYH^dGQ?ob]>Tk_P3i2
+I:1j5lV5<3J6O`OEMXRd4b0
+R2
+R0
+R3
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/QD1.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/QD1.v
+L0 6
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/QD1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/QD1.v|
+!i113 1
+R7
+!s92 -vlog01compat -work QD1 +incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis
+n@q@d1
+vQD1_altpll_0
+R27
+!i10b 1
+!s100 NlgQ5fkOI@TMm6d[iKCOc0
+IjUh9FEGc`C[Ra9`TiR_9a2
+R2
+R0
+R23
+Z39 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_altpll_0.v
+Z40 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_altpll_0.v
+L0 222
+R5
+r1
+!s85 0
+31
+R29
+Z41 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_altpll_0.v|
+Z42 !s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_altpll_0.v|
+!i113 1
+R7
+R8
+n@q@d1_altpll_0
+vQD1_altpll_0_altpll_5ag2
+R27
+!i10b 1
+!s100 m7B=m>a0@ILJ7iWJo[YaC0
+InV:3fh2eD6JWV<JBJn1M80
+R2
+R0
+R23
+R39
+R40
+L0 131
+R5
+r1
+!s85 0
+31
+R29
+R41
+R42
+!i113 1
+R7
+R8
+n@q@d1_altpll_0_altpll_5ag2
+vQD1_altpll_0_dffpipe_l2c
+R27
+!i10b 1
+!s100 QL0N>QkS07Alg2BkP[S5>2
+IJ`MTRlXOU:m>a1:^45:JU0
+R2
+R0
+R23
+R39
+R40
+L0 38
+R5
+r1
+!s85 0
+31
+R29
+R41
+R42
+!i113 1
+R7
+R8
+n@q@d1_altpll_0_dffpipe_l2c
+vQD1_altpll_0_stdsync_sv6
+R27
+!i10b 1
+!s100 5P3CfAbJng9khOAH:i2ZY2
+ID3dVcj3?4T?cJVF?<LC=C3
+R2
+R0
+R23
+R39
+R40
+L0 99
+R5
+r1
+!s85 0
+31
+R29
+R41
+R42
+!i113 1
+R7
+R8
+n@q@d1_altpll_0_stdsync_sv6
+vQD1_Audio
+R27
+!i10b 1
+!s100 0L4Z0YaQLlSNBK4Tg5>Yn1
+I96nUZc3YWG`@B1iJcbL=L3
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_Audio.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_Audio.v
+R28
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_Audio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_Audio.v|
+!i113 1
+R7
+R8
+n@q@d1_@audio
+vQD1_audio_i2c_config
+R27
+!i10b 1
+!s100 Z[=iiF=77Mc]Hm@>>z?aY3
+I^QR1SENbN7G2ORWn8BhdI1
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_audio_i2c_config.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_audio_i2c_config.v
+R24
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_audio_i2c_config.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_audio_i2c_config.v|
+!i113 1
+R7
+R8
+n@q@d1_audio_i2c_config
+vQD1_button_pio
+R30
+!i10b 1
+!s100 Se5G8JggUS970o?PBJ70c1
+IMOgJA_;Nf08_@02z6Oh5h3
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_button_pio.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_button_pio.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_button_pio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_button_pio.v|
+!i113 1
+R7
+R8
+n@q@d1_button_pio
+vQD1_irq_mapper
+R9
+R27
+!i10b 1
+!s100 ^?iULREc7UoA9[57kfUFa0
+IHi34XgS5QJkR6lB;4^_aR2
+R2
+!s105 QD1_irq_mapper_sv_unit
+S1
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_irq_mapper.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_irq_mapper.sv
+L0 31
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_irq_mapper.sv|
+!i113 1
+R17
+R18
+n@q@d1_irq_mapper
+vQD1_jtag_uart_0
+R30
+!i10b 1
+!s100 aVZcoCGoF:K3aEJXdA9m52
+I]OnAb3eLcQjfm93IKah4m1
+R2
+R0
+R23
+Z43 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_jtag_uart_0.v
+Z44 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_jtag_uart_0.v
+L0 327
+R5
+r1
+!s85 0
+31
+R32
+Z45 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_jtag_uart_0.v|
+Z46 !s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_jtag_uart_0.v|
+!i113 1
+R7
+R8
+n@q@d1_jtag_uart_0
+vQD1_jtag_uart_0_scfifo_r
+R30
+!i10b 1
+!s100 Z>b:EelXUbL0QM5R`VFki3
+ICdk_:eZ2Z]V[zRU:81zDY1
+R2
+R0
+R23
+R43
+R44
+L0 240
+R5
+r1
+!s85 0
+31
+R32
+R45
+R46
+!i113 1
+R7
+R8
+n@q@d1_jtag_uart_0_scfifo_r
+vQD1_jtag_uart_0_scfifo_w
+R30
+!i10b 1
+!s100 IL0Hc9mIk0F8I?FfjY7Ib2
+ISOEJ5JbAzl_OMKMhQM>HS2
+R2
+R0
+R23
+R43
+R44
+L0 77
+R5
+r1
+!s85 0
+31
+R32
+R45
+R46
+!i113 1
+R7
+R8
+n@q@d1_jtag_uart_0_scfifo_w
+vQD1_jtag_uart_0_sim_scfifo_r
+R30
+!i10b 1
+!s100 1RCWh<?>nP8[aVdRV7[XU3
+I7SHHgMRja5g_zjA1z1:8>1
+R2
+R0
+R23
+R43
+R44
+L0 162
+R5
+r1
+!s85 0
+31
+R32
+R45
+R46
+!i113 1
+R7
+R8
+n@q@d1_jtag_uart_0_sim_scfifo_r
+vQD1_jtag_uart_0_sim_scfifo_w
+R30
+!i10b 1
+!s100 8U_cNWWT0><`d3zH?iRP81
+I@cjgG1JW?kA^OcR`]M@Kf3
+R2
+R0
+R23
+R43
+R44
+R4
+R5
+r1
+!s85 0
+31
+R32
+R45
+R46
+!i113 1
+R7
+R8
+n@q@d1_jtag_uart_0_sim_scfifo_w
+vQD1_lcd_display
+R30
+!i10b 1
+!s100 `=JPc3mYTXg1EzgJUUmc?1
+IB2o:4C3j];e1?fa22DXkI2
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_lcd_display.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_lcd_display.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_lcd_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_lcd_display.v|
+!i113 1
+R7
+R8
+n@q@d1_lcd_display
+vQD1_led_pio
+R30
+!i10b 1
+!s100 8;Gn4h9M1aloclW^^]D3]0
+IeRNXDT^?_2PTN6H8j:Sgl0
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_led_pio.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_led_pio.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_led_pio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_led_pio.v|
+!i113 1
+R7
+R8
+n@q@d1_led_pio
+vQD1_mm_interconnect_0
+R25
+!i10b 1
+!s100 lY_iN:ZVQ_[Qe9JfON`kG0
+I1>8P>l892jXa5>zO>oHiF3
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0.v|
+!i113 1
+R7
+R8
+n@q@d1_mm_interconnect_0
+vQD1_mm_interconnect_0_avalon_st_adapter
+R25
+!i10b 1
+!s100 4]2b_mJkMkU_N3?zLz3<C2
+I=hQPANYKBJ9^6Pc65a`mY1
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter.v
+L0 9
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter.v|
+!i113 1
+R7
+R8
+n@q@d1_mm_interconnect_0_avalon_st_adapter
+vQD1_mm_interconnect_0_avalon_st_adapter_008
+R25
+!i10b 1
+!s100 nbb55HZ`AGYl6Pi44^0QK0
+IX9BDmJH:b52FDMECI>UQB0
+R2
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008.v
+L0 9
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008.v|
+!i113 1
+R7
+R8
+n@q@d1_mm_interconnect_0_avalon_st_adapter_008
+vQD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0
+R9
+R27
+!i10b 1
+!s100 AB:c5UdY=YzE7<f`mf8Wf0
+IjME6InO?KINdnZQoAY5OZ3
+R2
+!s105 QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0_sv_unit
+S1
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0.sv
+Z47 L0 66
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_avalon_st_adapter_008_error_adapter_0
+vQD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+R9
+R10
+!i10b 1
+!s100 i5:RIUJ]hnUhHLDM]i<RW0
+IR>Zb8`mHn>gQUiD9o6_ZA0
+R2
+!s105 QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
+S1
+R0
+R23
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+R47
+R5
+r1
+!s85 0
+31
+R29
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+vQD1_mm_interconnect_0_cmd_demux
+R9
+R10
+!i10b 1
+!s100 >cL8PH83ek:mY6?Efg4`X0
+IXXk93Qf@U`C_2iQH2HJ0U3
+R2
+!s105 QD1_mm_interconnect_0_cmd_demux_sv_unit
+S1
+R0
+Z48 w1539638253
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux.sv
+Z49 L0 43
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_cmd_demux
+vQD1_mm_interconnect_0_cmd_demux_001
+R9
+R10
+!i10b 1
+!s100 KhGS[dQDY]C>W^]ng3@Id2
+IZZceCFYbJG<9MZEBRhbC81
+R2
+!s105 QD1_mm_interconnect_0_cmd_demux_001_sv_unit
+S1
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux_001.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux_001.sv
+R49
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_demux_001.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_cmd_demux_001
+vQD1_mm_interconnect_0_cmd_mux
+R9
+R10
+!i10b 1
+!s100 RY0OA17[i<_34ATzYRk]91
+IERM33]VDV=]I4T=l>V@AI0
+R2
+!s105 QD1_mm_interconnect_0_cmd_mux_sv_unit
+S1
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux.sv
+Z50 L0 51
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_cmd_mux
+vQD1_mm_interconnect_0_cmd_mux_007
+R9
+R10
+!i10b 1
+!s100 fEg;9FjWfQQQ<`<_;>AO=3
+IWl4HbBW=kOB1FQfS[BeBE1
+R2
+!s105 QD1_mm_interconnect_0_cmd_mux_007_sv_unit
+S1
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux_007.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux_007.sv
+R50
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux_007.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_cmd_mux_007.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_cmd_mux_007
+vQD1_mm_interconnect_0_router
+R9
+R1
+!i10b 1
+!s100 eHPmBVQFI`ARWB>`<K0F?0
+INc2?iedKB54]L6`z9CX[50
+R2
+Z51 !s105 QD1_mm_interconnect_0_router_sv_unit
+S1
+R0
+R48
+Z52 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router.sv
+Z53 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router.sv
+Z54 L0 84
+R5
+r1
+!s85 0
+31
+R6
+Z55 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router.sv|
+Z56 !s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router
+vQD1_mm_interconnect_0_router_001
+R9
+R1
+!i10b 1
+!s100 P>i2@YZG>EQ?PzXejaScn1
+I0<AEHj8N4aeDV31k0:g0e0
+R2
+Z57 !s105 QD1_mm_interconnect_0_router_001_sv_unit
+S1
+R0
+R48
+Z58 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_001.sv
+Z59 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_001.sv
+R54
+R5
+r1
+!s85 0
+31
+R6
+Z60 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_001.sv|
+Z61 !s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_001.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_001
+vQD1_mm_interconnect_0_router_001_default_decode
+R9
+R1
+!i10b 1
+!s100 RD6NLaJSljOOPcTiKF:n[1
+I1mJBQTc2ZoDHQE^SaHo`:1
+R2
+R57
+S1
+R0
+R48
+R58
+R59
+Z62 L0 45
+R5
+r1
+!s85 0
+31
+R6
+R60
+R61
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_001_default_decode
+vQD1_mm_interconnect_0_router_002
+R9
+R1
+!i10b 1
+!s100 R2C]MRO_oDzJ=028NPo5z2
+ICkBD5=6`zdg?424CzT28j3
+R2
+Z63 !s105 QD1_mm_interconnect_0_router_002_sv_unit
+S1
+R0
+R48
+Z64 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_002.sv
+Z65 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_002.sv
+R54
+R5
+r1
+!s85 0
+31
+R6
+Z66 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_002.sv|
+Z67 !s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_002.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_002
+vQD1_mm_interconnect_0_router_002_default_decode
+R9
+R1
+!i10b 1
+!s100 c8J06CZZ8CaK_RJK=@PCg2
+IEVg[G>VR8i5h<KnJG1<G>1
+R2
+R63
+S1
+R0
+R48
+R64
+R65
+R62
+R5
+r1
+!s85 0
+31
+R6
+R66
+R67
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_002_default_decode
+vQD1_mm_interconnect_0_router_009
+R9
+R1
+!i10b 1
+!s100 ej:e1_B]V>mKN54H_Gh]>0
+I5Xg66ZV>;Y9d7:jaIdg2P0
+R2
+Z68 !s105 QD1_mm_interconnect_0_router_009_sv_unit
+S1
+R0
+R48
+Z69 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_009.sv
+Z70 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_009.sv
+R54
+R5
+r1
+!s85 0
+31
+R6
+Z71 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_009.sv|
+Z72 !s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_009.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_009
+vQD1_mm_interconnect_0_router_009_default_decode
+R9
+R1
+!i10b 1
+!s100 z<d=5@GV[heQRFi`;L<f[0
+I0@bYa@;HJdfn1PklT==IC3
+R2
+R68
+S1
+R0
+R48
+R69
+R70
+R62
+R5
+r1
+!s85 0
+31
+R6
+R71
+R72
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_009_default_decode
+vQD1_mm_interconnect_0_router_010
+R9
+R1
+!i10b 1
+!s100 <A^F;YOfmP1GzW=2z]6F20
+Il>Ag0>P_ALnij97jVfkX^0
+R2
+Z73 !s105 QD1_mm_interconnect_0_router_010_sv_unit
+S1
+R0
+R48
+Z74 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_010.sv
+Z75 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_010.sv
+R54
+R5
+r1
+!s85 0
+31
+R6
+Z76 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_010.sv|
+Z77 !s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_router_010.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_010
+vQD1_mm_interconnect_0_router_010_default_decode
+R9
+R1
+!i10b 1
+!s100 ]H[bIcOD]@ZZ4IA<7Wkii1
+Icdl2LeCBf[RK4T;7IWz_51
+R2
+R73
+S1
+R0
+R48
+R74
+R75
+R62
+R5
+r1
+!s85 0
+31
+R6
+R76
+R77
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_010_default_decode
+vQD1_mm_interconnect_0_router_default_decode
+R9
+R1
+!i10b 1
+!s100 Khz6zIjM3P`HN^:aH5c_l3
+I[M4T8QiF;5Qab>GZFb:3V0
+R2
+R51
+S1
+R0
+R48
+R52
+R53
+R62
+R5
+r1
+!s85 0
+31
+R6
+R55
+R56
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_router_default_decode
+vQD1_mm_interconnect_0_rsp_demux
+R9
+R10
+!i10b 1
+!s100 l9<bnXKnBz_1<m[m?eL;Y2
+I``z1N:K:L<=i>63L95HzI1
+R2
+!s105 QD1_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux.sv
+R49
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_rsp_demux
+vQD1_mm_interconnect_0_rsp_demux_007
+R9
+R10
+!i10b 1
+!s100 M5OHoDKNXOC<J]fYQJiHJ0
+IBOGT2IREf^X[JGCdTn9^43
+R2
+!s105 QD1_mm_interconnect_0_rsp_demux_007_sv_unit
+S1
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux_007.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux_007.sv
+R49
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux_007.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_demux_007.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_rsp_demux_007
+vQD1_mm_interconnect_0_rsp_mux
+R9
+R10
+!i10b 1
+!s100 J?3_C3zL9o>6e<i4B772Y3
+IeYYR6H2F?mo@QbiPIE7KV1
+R2
+!s105 QD1_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux.sv
+R50
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_rsp_mux
+vQD1_mm_interconnect_0_rsp_mux_001
+R9
+R10
+!i10b 1
+!s100 J=B=FYQGIdR^PcR^8cQ4W1
+IbEme<UdRTaV7oAiUcBCJi3
+R2
+!s105 QD1_mm_interconnect_0_rsp_mux_001_sv_unit
+S1
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux_001.sv
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux_001.sv
+R50
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_mm_interconnect_0_rsp_mux_001.sv|
+!i113 1
+R17
+R18
+n@q@d1_mm_interconnect_0_rsp_mux_001
+vQD1_nios2_gen2_0
+R30
+!i10b 1
+!s100 LcSJmS:B;:15K>@lE3dzJ1
+II5]o6mgagM_2;_P4cEkHi1
+R2
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_nios2_gen2_0.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_nios2_gen2_0.v
+L0 9
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_nios2_gen2_0.v|
+!i113 1
+R7
+R8
+n@q@d1_nios2_gen2_0
+vQD1_response_out
+R30
+!i10b 1
+!s100 G1>bj4Y[mH0o1[:fn6_eF0
+IL<B0?P8>UD8e_2SZEif@80
+R2
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_response_out.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_response_out.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_response_out.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_response_out.v|
+!i113 1
+R7
+R8
+n@q@d1_response_out
+vQD1_sdram_0
+R30
+!i10b 1
+!s100 2YFFUNRbV@2l2E;hYBI2o2
+I`hkzE]T0hikJ`d`z?D8B02
+R2
+R0
+R48
+Z78 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sdram_0.v
+Z79 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sdram_0.v
+L0 158
+R5
+r1
+!s85 0
+31
+R32
+Z80 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sdram_0.v|
+Z81 !s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sdram_0.v|
+!i113 1
+R7
+R8
+n@q@d1_sdram_0
+vQD1_sdram_0_input_efifo_module
+R30
+!i10b 1
+!s100 j3XnVCE7KNCGiX9;z<f0J0
+IB`2I9aND9HXKfmCTndPD;3
+R2
+R0
+R48
+R78
+R79
+R4
+R5
+r1
+!s85 0
+31
+R32
+R80
+R81
+!i113 1
+R7
+R8
+n@q@d1_sdram_0_input_efifo_module
+vQD1_stimulus_in
+R30
+!i10b 1
+!s100 9MZQ>]Tn2Fnz^TT_UYmhZ0
+I2kGMWaZRJ^]hk7_n?2;:]2
+R2
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_stimulus_in.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_stimulus_in.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_stimulus_in.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_stimulus_in.v|
+!i113 1
+R7
+R8
+n@q@d1_stimulus_in
+vQD1_switch_pio
+R30
+!i10b 1
+!s100 mVKGDH_ZH3VnX0]O=48Po3
+I=HH7hf4QYS090FW@cf`B21
+R2
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_switch_pio.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_switch_pio.v
+R4
+R5
+r1
+!s85 0
+31
+R32
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_switch_pio.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_switch_pio.v|
+!i113 1
+R7
+R8
+n@q@d1_switch_pio
+vQD1_sysid_qsys_0
+R30
+!i10b 1
+!s100 gF6QdSVR4QL:S;CM9^g743
+If9R`PgOZH8YnWZh8_lQDQ1
+R2
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sysid_qsys_0.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sysid_qsys_0.v
+R22
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_sysid_qsys_0.v|
+!i113 1
+R7
+R8
+n@q@d1_sysid_qsys_0
+vQD1_system_timer
+R25
+!i10b 1
+!s100 e[Xk2H5VRh9f0dBFIIo>Z3
+I9ec4i]lLAd60:c@T]a1B43
+R2
+R0
+R48
+8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_system_timer.v
+FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_system_timer.v
+R4
+R5
+r1
+!s85 0
+31
+R26
+!s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_system_timer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_system_timer.v|
+!i113 1
+R7
+R8
+n@q@d1_system_timer
+vQD1_uart
+R25
+!i10b 1
+!s100 LXi:dAUj=]];5Uc=NmY2H2
+IoRM9X5GGk9:0D_H[01`WG3
+R2
+R0
+R48
+Z82 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_uart.v
+Z83 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_uart.v
+L0 789
+R5
+r1
+!s85 0
+31
+R26
+Z84 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_uart.v|
+Z85 !s90 -reportprogress|300|-vlog01compat|-work|QD1|+incdir+C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/QD1_uart.v|
+!i113 1
+R7
+R8
+n@q@d1_uart
+vQD1_uart_regs
+R25
+!i10b 1
+!s100 dANS6?aVJAHKUJOlB8XAZ3
+I9@7O91BUVW]:;_CYfPEK>0
+R2
+R0
+R48
+R82
+R83
+L0 544
+R5
+r1
+!s85 0
+31
+R26
+R84
+R85
+!i113 1
+R7
+R8
+n@q@d1_uart_regs
+vQD1_uart_rx
+R25
+!i10b 1
+!s100 PThRYQVTL8G>[b^TL5DZ82
+IW8YZ62MA8FbaLd7S?g[O<3
+R2
+R0
+R48
+R82
+R83
+L0 286
+R5
+r1
+!s85 0
+31
+R26
+R84
+R85
+!i113 1
+R7
+R8
+n@q@d1_uart_rx
+vQD1_uart_rx_stimulus_source
+R25
+!i10b 1
+!s100 =E]iS[e?PYRdU_BWQ6DGI0
+IK`eJ4QmDaX4R7D8zYZGBT2
+R2
+R0
+R48
+R82
+R83
+L0 193
+R5
+r1
+!s85 0
+31
+R26
+R84
+R85
+!i113 1
+R7
+R8
+n@q@d1_uart_rx_stimulus_source
+vQD1_uart_tx
+R25
+!i10b 1
+!s100 B00ROlW=_S;FnWk<V^h]31
+IMW3Pl;inc7]9ZzMFfOfC40
+R2
+R0
+R48
+R82
+R83
+R4
+R5
+r1
+!s85 0
+31
+R26
+R84
+R85
+!i113 1
+R7
+R8
+n@q@d1_uart_tx
+Espi_master_core
+R48
+R33
+R34
+R35
+R0
+Z86 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_core.vhd
+Z87 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_core.vhd
+l0
+L58
+V2jf6:CHPQU6mV>cU;HiHl0
+!s100 Co;Tk7oWmPS1Bc@POO]H23
+R36
+31
+R20
+!i10b 1
+R21
+Z88 !s90 -reportprogress|300|-93|-work|QD1|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_core.vhd|
+Z89 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_core.vhd|
+!i113 1
+R37
+R38
+Asyn
+R33
+R34
+R35
+DEx4 work 15 spi_master_core 0 22 2jf6:CHPQU6mV>cU;HiHl0
+l150
+L88
+Vz=?;6gj4WfOWe@AjDjbI53
+!s100 :Yz6hTL3<C<bi=hzCUf_o2
+R36
+31
+R20
+!i10b 1
+R21
+R88
+R89
+!i113 1
+R37
+R38
+Espi_master_if
+R48
+R33
+R34
+R35
+R0
+Z90 8C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_if.vhd
+Z91 FC:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_if.vhd
+l0
+L52
+V8mP967X:VCA=P7U^VzTOX3
+!s100 ]C3dGaDJiXOL4JG?5TlKh0
+R36
+31
+R20
+!i10b 1
+R21
+Z92 !s90 -reportprogress|300|-93|-work|QD1|C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_if.vhd|
+Z93 !s107 C:/Users/d3goel/Documents/ECE-224/LogicalStep/QD1/synthesis/submodules/spi_master_if.vhd|
+!i113 1
+R37
+R38
+Asyn
+R33
+R34
+R35
+DEx4 work 13 spi_master_if 0 22 8mP967X:VCA=P7U^VzTOX3
+l122
+L82
+Vo^EQ`jEo^MBV2[EaIhBcT3
+!s100 mkc3Z_@b6LbNLF;Z;<QSY2
+R36
+31
+R20
+!i10b 1
+R21
+R92
+R93
+!i113 1
+R37
+R38
